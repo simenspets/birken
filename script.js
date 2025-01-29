@@ -1,4 +1,4 @@
-// Dette er Dalai Solutions AS sin eiendom, på leie til Oslo Maraton AS. Bruk utover avtale er ikke tillat.    
+// Dette er Dalai Solutions AS sin eiendom, på leie til Birken AS. Bruk utover avtale er ikke tillat.    
 let inputPlaceholder = " ";
 let widgetDescription = " ";
 let browserUrl = window.location.href;
@@ -160,7 +160,7 @@ const FormExtension = {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
         window.voiceflow.chat.load({
-          verify: { projectID: '6788e4498be20586cd1419e8' },
+          verify: { projectID: '678e2b0cc281e62ca5f3d6da' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           assistant: {
