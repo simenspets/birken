@@ -9,10 +9,10 @@ let browser_url = window.location.href;
 widgetDescription = "I'm pretty smart, so just ask! Don't share any sensitive personal information with me.";
 inputPlaceholder = "Message...";
 } else if (browserUrl.includes('/no')) {
-widgetDescription = "Jeg er ganske smart, men trenger et par sekunder for å tenke meg om! Ikke gi meg sensitiv personinformasjon.";
+widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om! Ikke gi meg sensitiv personinformasjon.";
 inputPlaceholder = "Skriv melding...";
 } else {
-widgetDescription = "Jeg er ganske smart, men trenger et par sekunder for å tenke meg om! Ikke gi meg sensitiv personinformasjon.";
+widgetDescription = "Jeg er ganske smart, men trenger et par sekunder til å tenke meg om! Ikke gi meg sensitiv personinformasjon.";
 inputPlaceholder = "Skriv melding...";
 }
 
