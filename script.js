@@ -156,7 +156,7 @@ const FormExtension = {
         versionID: 'production',
         assistant: {
            extensions: [FormExtension],
-           stylesheet: "<style> .vfrc-header--title { color: 2B5AFF; } </style>",
+           stylesheet: widgetStylesheet,
            banner: {
              description: widgetDescription,
            },
