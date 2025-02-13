@@ -1,22 +1,22 @@
- .vfrc-button[label="Start new chat"] {
+.vfrc-button[label="Start new chat"] {
     color: transparent;
     position: relative;
-  }
-  .vfrc-button[label="Start new chat"]::after {
+}
+.vfrc-button[label="Start new chat"]::after {
     content: "Start ny samtale";
     align-items: center;
     justify-content: center;
     inset: 0;
     position: absolute;
     display: flex;
-    color: #2B5AFF;
+    color: #FFFFFF; /* Endret til hvit */
     transform: translateX(-0%);
-  }
-  .vfrc-button[label="Cancel"] {
+}
+.vfrc-button[label="Cancel"] {
     color: transparent;
     position: relative;
-  }
-  .vfrc-button[label="Cancel"]::after {
+}
+.vfrc-button[label="Cancel"]::after {
     content: "Avbryt";
     align-items: center;
     justify-content: center;
@@ -24,19 +24,19 @@
     position: absolute;
     display: flex;
     color: #323232;
-  }
+}
 
-  ._1bvgnii4 {
+._1bvgnii4 {
     color: transparent;  
     position: relative;
-  }
-  
-  ._1bvgnii4::after {
+}
+
+._1bvgnii4::after {
     content: "Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
-    color: #2B5AFF;
+    color: #FFFFFF; /* Endret til hvit */
     position: absolute;
     display: block;
     align-items: center;
     justify-content: center;
-    transform: translateX(15%); /*Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre*/
-  } 
+    transform: translateX(15%); /* Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre */
+}
